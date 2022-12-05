@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#1F203A</color>
+    <color name="purple_500">#1B1C30</color>
+    <color name="purple_700">#242F33</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="tool_bar_color">#20222d</color>
+    <color name="tool_bar_color_dark">#0b0b0f</color>
+    <color name="tool_bar_color_light">#35384b</color>
+    <color name="tool_bar_color_accent">#0b0b0f</color>
+    <color name="tool_bar_color_item_press">#0b0b0f</color>
+    <color name="tool_bar_title_color">#FFFFFF</color>
+
+    <color name="ripple_color">#CCCCCC</color>
+
+    <color name="text_color">#00FBDF</color>
+
+    <color name="material_red">#f44336</color>
+    <color name="material_green">#4caf50</color>
+    <color name="material_blue">#2196f3</color>
+
+    <!--AD Colors-->
+    <color name="native_bg_color">#FFFFFF</color>
+    <color name="native_off_white_color">#eaf3ff</color>
+    <color name="native_text_color_title">#333333</color>
+    <color name="native_text_color_summery">#666666</color>
+    <color name="native_ad_text_bg">#0072ff</color>
+    <color name="native_install_btn_color">#0072ff</color>
+    <color name="native_install_btn_press_color">#005dff</color>
+    <color name="native_ad_txt_border_color">#e53b3b</color>
+    <color name="native_border_color">#0d2854</color>
+    <color name="native_rating_empty_color">#777777</color>
+    <color name="native_rating_fill_color">#00b33c</color>
+
+    <color name="consent_material_blue">#0E93FA</color>
+    <color name="consent_text_color">#222222</color>
+    <color name="consent_text_color_light">#555555</color>
+    <color name="consent_button_normal_color">#00000000</color>
+    <color name="consent_button_press_color">#B1DBFD</color>
+    <color name="consent_button_stroke_color">#0E93FA</color>
+
+    <color name="setting_header_bg_color">#20222d</color>
+    <color name="setting_header_text_color">#FFFFFF</color>
+    <color name="setting_text_color_title">#FFFFFF</color>
+    <color name="setting_text_color_summery">#F2F2F2</color>
+    <color name="setting_view_color">#E5E5E5</color>
+    <color name="setting_rel_press_color">#292B3A</color>
+
+    <color name="dialog_bg_color">#F7F7F7</color>
+    <color name="dialog_header_color">#0b0b0b</color>
+    <color name="dialog_message_color">#808080</color>
+    <color name="dialog_button_text_color">#0E93FA</color>
+    <color name="dialog_button_text_select_color">#FD5151</color>
+    <color name="dialog_button_press_color">#e7e7e7</color>
+</resources>

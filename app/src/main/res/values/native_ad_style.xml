@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NativeAdRatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/native_rating_empty_color</item>
+        <item name="colorControlActivated">@color/native_rating_fill_color</item>
+    </style>
+</resources>

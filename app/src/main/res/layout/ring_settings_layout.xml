@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/mywork_row_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/title_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/title_txt_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/robotobold"
+                    android:gravity="center"
+                    android:text="Settings"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/alarm_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_rl"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Adjust Alarm Volume"
+                    android:textColor="@color/white" />
+
+                <SeekBar
+                    android:id="@+id/alarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewAlarm"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable"
+                    android:thumb="@drawable/thumb"
+                    android:thumbOffset="-1dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/music_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/alarm_rel"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewMusic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Adjust Music Volume"
+                    android:textColor="@color/white" />
+
+                <SeekBar
+                    android:id="@+id/music"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewMusic"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable"
+                    android:thumb="@drawable/thumb"
+                    android:thumbOffset="-1dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ring_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/music_rel"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewRing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Adjust Ringtone Volume"
+                    android:textColor="@color/white" />
+
+                <SeekBar
+                    android:id="@+id/ring"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewRing"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable"
+                    android:thumb="@drawable/thumb"
+                    android:thumbOffset="-1dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/system_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ring_rel"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewSystem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Adjust System Volume"
+                    android:textColor="@color/white" />
+
+                <SeekBar
+                    android:id="@+id/system"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewSystem"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable"
+                    android:thumb="@drawable/thumb"
+                    android:thumbOffset="-1dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/voice_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/system_rel"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewVoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Adjust Voice Volume"
+                    android:textColor="@color/white" />
+
+                <SeekBar
+                    android:id="@+id/voice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewVoice"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable"
+                    android:thumb="@drawable/thumb"
+                    android:thumbOffset="-1dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/voice_rel"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <Button
+                    android:id="@+id/btn_done"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/done_bg"
+                    android:text="Done"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_8sdp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

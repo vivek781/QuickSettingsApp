@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/dialog_conform_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_background">
+
+        <RelativeLayout
+            android:id="@+id/dialog_conform_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/dialog_conform_txt_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Rate"
+                android:textColor="@color/dialog_header_color"
+                android:textSize="@dimen/_13sdp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dialog_conform_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_conform_header_layout"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/dialog_conform_txt_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Do you want to rate my app?"
+                android:textColor="@color/dialog_message_color"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dialog_conform_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_below="@+id/dialog_conform_message_layout"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp">
+
+            <Button
+                android:id="@+id/dialog_conform_btn_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/dialog_button_selector"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="@dimen/_5sdp"
+                android:text="Yes"
+                android:textAllCaps="true"
+                android:textColor="@drawable/dialog_button_text_selector"
+                android:textSize="@dimen/_12sdp"/>
+
+            <Button
+                android:id="@+id/dialog_conform_btn_no"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_toLeftOf="@+id/dialog_conform_btn_yes"
+                android:background="@drawable/dialog_button_selector"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="@dimen/_5sdp"
+                android:text="No"
+                android:textAllCaps="true"
+                android:textColor="@drawable/dialog_button_text_selector"
+                android:textSize="@dimen/_12sdp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

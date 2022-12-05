@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<notices>
+
+    <notice>
+        <name>Google Play Services</name>
+        <url>https://developer.android.com/google/play-services/index.html</url>
+        <copyright>© 2014 Google</copyright>
+        <license>Creative Commons Attribution-NoDerivs 3.0 Unported</license>
+    </notice>
+
+    <notice>
+        <name>Licenses Dialog</name>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+        <copyright>© 2013 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>TedPermission</name>
+        <url>https://github.com/ParkSangGwon/TedPermission</url>
+        <copyright>© 2017 Ted Park</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+</notices>
